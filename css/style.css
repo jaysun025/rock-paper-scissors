@@ -5,6 +5,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-image: radial-gradient(circle, red, yellow, purple, green, orange, blue);
 }
 
 header {
@@ -26,6 +27,15 @@ h3 {
 
 div.computerBox {
     position: relative; right: 100px;
+    background-image: linear-gradient(to bottom right, blue, yellow);
+}
+
+div.midBox {
+    background-image: linear-gradient(to bottom right, blue, yellow);
+}
+
+div.playerBox {
+    background-image: linear-gradient(to bottom right, blue, yellow);
 }
 
 .playerBox, .midBox, .computerBox {
@@ -48,4 +58,8 @@ img {
 .computer {
     right: 5000px;
     top: 58px;
+}
+
+.midbox {
+    position: relative; left: 100px; bottom: -100px;
 }
