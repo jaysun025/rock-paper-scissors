@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    display: block;
+}
+
+h3 {
+    position: relative;  left: 100px;
+}
+
+div.computerBox {
+    position: relative; right: 100px;
+}
+
+.playerBox, .midBox, .computerBox {
+    width: 25%;
+    border: 1px solid red;
+    height: 300px;
+    margin-top: 100px;
+}
+
+img {
+    width: 100%; 
+    height: 100%;
+}
+
+.player {
+    left: 200px;
+    top: 58px;
+}
+
+.computer {
+    right: 5000px;
+    top: 58px;
+}
