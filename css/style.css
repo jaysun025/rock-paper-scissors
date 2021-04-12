@@ -10,6 +10,11 @@ html, body {
 
 header {
     text-align: center;
+    font-size: larger;
+}
+
+h2 {
+    margin-top: 0px;
 }
 
 main {
